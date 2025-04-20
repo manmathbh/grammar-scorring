@@ -1,0 +1,7 @@
+gradio==5.23.3
+pydub==0.25.1
+scikit-learn
+numpy
+joblib
+soundfile
+librosa
