@@ -1,4 +1,4 @@
-# 🧠 Grammar Scoring Engine
+#  Grammar Scoring Engine
 
 🎙️ A voice-based ML app that predicts grammar fluency score (0–5) from spoken audio samples using audio feature extraction (MFCC) and regression modeling.  
 Built with **Gradio**, deployed on **Hugging Face Spaces**, and trained with real audio samples.
@@ -10,14 +10,14 @@ Built with **Gradio**, deployed on **Hugging Face Spaces**, and trained with rea
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 
-👉 **[Try the App on Hugging Face Spaces](https://huggingface.co/spaces/manmathbh/grammar-scoring)**  
-📌 *No installation required – works directly in browser*
+ **[Try the App on Hugging Face Spaces](https://huggingface.co/spaces/manmathbh/grammar-scoring)**  
+ *No installation required – works directly in browser*
 
 ---
 
-## 📖 Project Overview
+##  Project Overview
 
 The **Grammar Scoring Engine** is a machine learning project that leverages audio signal processing and regression modeling to evaluate grammar fluency in spoken English. 
 
@@ -25,27 +25,27 @@ Users are prompted to **speak naturally for 45–60 seconds**, and the model pro
 
 ---
 
-## 📷 Screenshots
+##  Screenshots
 
-### 🪟 Windows UI
+###  Windows UI
 ![Windows UI](assets/WindowsUI.png)
 
-### 📱 Android UI
+###  Android UI
 ![Android UI](assets/AndroidUI.png)
 
 ---
 
-## 🔍 Key Features
+##  Key Features
 
-- 🎤 Voice recording using Gradio UI
-- 🎛️ MFCC feature extraction via `librosa`
-- 🤖 Regression model trained on audio-annotated dataset
-- 📈 Evaluation using Pearson correlation
-- 🖥️ Deployed on Hugging Face Spaces (free, public, portable)
+-  Voice recording using Gradio UI
+-  MFCC feature extraction via `librosa`
+-  Regression model trained on audio-annotated dataset
+-  Evaluation using Pearson correlation
+-  Deployed on Hugging Face Spaces (free, public, portable)
 
 ---
 
-## 🧠 Tech Stack
+##  Tech Stack
 
 | Component         | Tool/Library                 |
 |------------------|------------------------------|
@@ -57,7 +57,7 @@ Users are prompted to **speak naturally for 45–60 seconds**, and the model pro
 
 ---
 
-## 🧪 Model Development
+##  Model Development
 
 - **Dataset**: 444 training samples, 195 test samples (45–60s voice recordings)
 - **Target Variable**: Continuous grammar score [0, 5]
